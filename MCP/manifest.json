@@ -1,0 +1,19 @@
+{
+  "name": "teams-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for sending Teams messages using Graph API",
+  "endpoints": {
+    "getUser": {
+      "method": "POST",
+      "path": "/getUser"
+    },
+    "getOrCreateChat": {
+      "method": "POST",
+      "path": "/getOrCreateChat"
+    },
+    "sendMessage": {
+      "method": "POST",
+      "path": "/sendMessage"
+    }
+  }
+}
